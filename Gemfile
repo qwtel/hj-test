@@ -10,7 +10,6 @@ source "https://rubygems.org"
 # Happy Jekylling!
 gem "jekyll", "~> 4.1"
 
-gem "jekyll-remote-theme"
 gem "jekyll-theme-hydejack", path: "./#jekyll-theme-hydejack"
 
 # IMPORTANT: The followign gem is used to compile math formulas to 
@@ -35,6 +34,7 @@ group :jekyll_plugins do
   gem "jekyll-readme-index"
   gem "jekyll-redirect-from"
   gem "jekyll-relative-links"
+  gem "jekyll-remote-theme"
   gem "jekyll-seo-tag", git: "https://github.com/hydecorp/jekyll-seo-tag"
   gem "jekyll-sitemap"
   gem "jekyll-titles-from-headings"

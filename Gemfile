@@ -24,6 +24,7 @@ gem "jekyll-theme-hydejack", path: "./#jekyll-theme-hydejack"
 #    For details, see <https://github.com/kramdown/math-katex#documentation>
 #
 # If you're using the MathJax math engine instead, free to remove the line below:
+gem "mini_racer"
 gem "kramdown-math-katex"
 
 group :jekyll_plugins do

@@ -38,7 +38,6 @@ GEM
       http_parser.rb (~> 0.6.0)
     eventmachine (1.2.7)
     eventmachine (1.2.7-x64-mingw32)
-    execjs (2.7.0)
     ffi (1.13.1)
     ffi (1.13.1-x64-mingw32)
     forwardable-extended (2.6.0)
@@ -89,13 +88,8 @@ GEM
       jekyll (>= 3.3, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
-    katex (0.6.0)
-      execjs (~> 2.7)
     kramdown (2.3.0)
       rexml
-    kramdown-math-katex (1.0.1)
-      katex (~> 0.4)
-      kramdown (~> 2.0)
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
     liquid (4.0.3)
@@ -143,7 +137,6 @@ DEPENDENCIES
   jekyll-sitemap
   jekyll-theme-hydejack!
   jekyll-titles-from-headings
-  kramdown-math-katex
 
 BUNDLED WITH
    2.1.4

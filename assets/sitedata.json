@@ -1,0 +1,91 @@
+
+
+{
+  "pages": [
+    {
+      
+      
+      
+      "content": "\n",
+      "url": "/404.html"
+    },{
+      
+      "title": "Blog",
+      "description": "The official Hydejack blog. Version updates, example content and how-to guides on how to blog with Jekyll.\n",
+      "content": "\n",
+      "url": "/blog/"
+    },{
+      
+      
+      
+      "content": "\n",
+      "url": "/offline.html"
+    },{
+      
+      "title": "Posts",
+      "description": "This is the list layout for showing blog posts, which shows just the title and groups them by year of publication. Check out the blog layout for comparison.\n",
+      "content": "\n",
+      "url": "/posts/"
+    },{
+      
+      "title": "Projects",
+      "description": "How people are using Hydejack in the real world.  This page is built using the projects layout* that you can use yourself to build a portfolio.\n",
+      "content": "If you’d like to have your blog or project featured here, please contact me at mail@qwtel.com.\n\n\n",
+      "url": "/projects/"
+    },{
+      
+      "title": "Résumé*",
+      "description": "This is the description of your resume page, as it will be seen by search engines. You’ll probably want to modify it in resume.md, and maybe set hide_description to true in the front matter.\n",
+      "content": "\n",
+      "url": "/resume/"
+    }
+  ], 
+  "documents": [
+    {
+      
+      "title": "Example",
+      "date": "2020-10-24 06:45:57 +0000",
+      "description": "This is a featured category, which have their own page. Check out _featured_tags/example.md to learn how to create your own.\n",
+      "content": "\n",
+      "categories": [],
+      "tags": [],
+      
+      "collection": "featured_categories",
+      "url": "/blog/example/"
+    },{
+      "image": "/assets/img/projects/hy-push-state.svg",
+      "title": "hy-components",
+      "date": "2016-01-01 00:00:00 +0000",
+      "description": "Using the Free Version of Hydejack as a product page on GitHub Pages.\n",
+      "content": "\n",
+      "categories": [],
+      "tags": [],
+      
+      "collection": "projects",
+      "url": "/projects/hy-components/"
+    },{
+      "image": {"path":"assets/img/projects/hydejack-site.jpg","srcset":{"2560w":"assets/img/projects/hydejack-site.jpg","1280w":"assets/img/projects/hydejack-site@0,5x.jpg","640w":"assets/img/projects/hydejack-site@0,25x.jpg"}},
+      "title": "Hydejack Site",
+      "date": "2016-01-01 00:00:00 +0000",
+      "description": "While Hydejack is built for personal sites, it’s versatility allows it to be used a product page as well.\n",
+      "content": "\n",
+      "categories": [],
+      "tags": [],
+      
+      "collection": "projects",
+      "url": "/projects/hydejack-site/"
+    },{
+      "image": {"path":"assets/img/projects/qwtel.jpg","srcset":{"2560w":"assets/img/projects/qwtel.jpg","1280w":"assets/img/projects/qwtel@0,5x.jpg","640w":"assets/img/projects/qwtel@0,25x.jpg"}},
+      "title": "@qwtel",
+      "date": "2020-06-01 00:00:00 +0000",
+      "description": "This is how I use Hydejack on my personal site.  Much of the development is informed from my experience of using it myself, creating a tight feedback loop.\n",
+      "content": "For my personal site I’ve toned it down a bit. Instead of a flashy sidebar image, I chose a solid background color.\nHowever, I’ve given certain pages big sidebar images,\nand let Hydejack blend back to normal when the user navigates away.\n\nWhile I love the font used for Hydejack’s headings, for my personal site I felt less of a need to control the typesetting.\nThat’s why I’m not using Google Fonts, and instead use whatever is the default for the reader’s operating system.\n\ngoogle_fonts: false\nfont:         system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Roboto\", \"Oxygen\", \"Ubuntu\", \"Cantarell\", \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\nfont_heading: system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Roboto\", \"Oxygen\", \"Ubuntu\", \"Cantarell\", \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\n\n\nThe configuration I use to enable the system font on my site. Feel free to copy!\n",
+      "categories": [],
+      "tags": [],
+      
+      "collection": "projects",
+      "url": "/projects/qwtel/"
+    }
+  ]
+}
+
